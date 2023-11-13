@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MicroBlog App</title>
+  <!--stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <!--ICONSCOUT CDN-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <!--======GOOGLE FONTS========-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html" class="nav__logo">MicroBlog</a>
+      <ul class="nav__items">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="signin.html">SignIn</a></li>
+        <li class="nav__profile">
+          <div class="avatar">
+            <img src="./Darjeeling Trip/IMG_1679.JPG" alt="no clip">
+          </div>
+          <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="logout.html">Logout</a></li>
+          </ul>
+
+        </li>
+      </ul>
+
+      <button id="open__nav-btn"><i class="uil uil-list-ul"></i></button>
+      <button id="close__nav-btn"><i class="uil uil-times-circle"></i></button>
+    </div>
+  </nav>
+  <!--================ENF OF NAVBAR===========----->
+  
+   <section class="featured">
+    <div class="container featured__container">
+      <div class="post__thumbnail">
+        <img src="./Darjeeling Trip/IMG_2014.jpg" alt="trip pic">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">wild</a>
+        <h2 class="post__title">
+          <a href="post.html">
+            Lorem ipsum dolor sit amet
+          </a>
+        </h2>
+        <p class="post__body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed.
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="./Darjeeling Trip/pexels.jpg" alt="404">
+          </div>
+          <div class="post_author-info">
+            <h5>By: Pradip </h5>
+            <small>Nov 15, 2023 - 1:30PM</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   </section>
+   <!--================ENF OF FEATURED POST ===========----->
+  
+   <section class="posts">
+    <div class="container post__container">
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">Art</a>
+          <h3 class="post__title"><a href="post.html">The Transformative Tapestry of Art: A Journey into Emotion and Expression</a></h3>
+          <p class="post__body">
+            Art, the universal language of the soul, weaves a tapestry of emotion through diverse mediums—paintings, sculptures, and photography. In the realm of paintings, artists become storytellers, using vibrant hues and intricate details to articulate the kaleidoscope of human emotion. Each brushstroke is a narrative, from the melancholy of a rainy cityscape to the exuberance of a sunlit field.
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">Sports</a>
+          <h3 class="post__title"><a href="post.html">The Unstoppable Rise of E-Sports: A Phenomenon Redefining the Sporting Landscape</a></h3>
+          <p class="post__body">
+            In recent years, the world of sports has undergone a profound transformation with the emergence and exponential growth of electronic sports, more commonly known as e-sports. 
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button"> fest</a>
+          <h3 class="post__title"><a href="post.html">Techrarcy Triumph: A Glimpse into the Marvels of Techrarcy 2024!</a></h3>
+          <p class="post__body">
+            Gear up, tech enthusiasts! The anticipation is reaching a crescendo on the Techrarcy campus as we prepare to unveil the technological extravaganza of the year – Techrarcy Fest 2023! Get ready to be immersed in a world of innovation, brilliance, and unparalleled excitement as we provide you with a sneak peek into the wonders that await.
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">college life</a>
+          <h3 class="post__title"><a href="post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h3>
+          <p class="post__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facere omnis inventore blanditiis modi facilis hic, neque ullam rerum ut!
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">college life</a>
+          <h3 class="post__title"><a href="post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h3>
+          <p class="post__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facere omnis inventore blanditiis modi facilis hic, neque ullam rerum ut!
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">college life</a>
+          <h3 class="post__title"><a href="post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h3>
+          <p class="post__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facere omnis inventore blanditiis modi facilis hic, neque ullam rerum ut!
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">college life</a>
+          <h3 class="post__title"><a href="post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h3>
+          <p class="post__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facere omnis inventore blanditiis modi facilis hic, neque ullam rerum ut!
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">college life</a>
+          <h3 class="post__title"><a href="post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h3>
+          <p class="post__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facere omnis inventore blanditiis modi facilis hic, neque ullam rerum ut!
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">college life</a>
+          <h3 class="post__title"><a href="post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h3>
+          <p class="post__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facere omnis inventore blanditiis modi facilis hic, neque ullam rerum ut!
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">college life</a>
+          <h3 class="post__title"><a href="post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h3>
+          <p class="post__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facere omnis inventore blanditiis modi facilis hic, neque ullam rerum ut!
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="post">
+        <div class="post__thumbnail">
+          <img src="./Darjeeling Trip/pexels.jpg" alt="">
+        </div>
+        <div class="post__info">
+          <a href="" class="category__button">college life</a>
+          <h3 class="post__title"><a href="post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h3>
+          <p class="post__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facere omnis inventore blanditiis modi facilis hic, neque ullam rerum ut!
+          </p>
+          <div class="post__author">
+            <div class="post__author-avatar">
+              <img src="./Darjeeling Trip/pexels.jpg" alt="">
+            </div>
+          </div>
+         
+          <div class="post_author-info">
+            <h5>By: Mayank</h5>
+            <small> Nov 13 2023 - 11:00AM</small>
+          </div>
+        </div>
+      </article>
+    </div>
+   </section>
+   <!---=====================END OF POSTS====================--->
+   <section class="category__buttons">
+    <div class="container category__buttons-container">
+      <a href="" class="category__button">Art</a>
+      <a href="" class="category__button">Sports</a>
+      <a href="" class="category__button">Fest</a>
+      <a href="" class="category__button">Travel</a>
+      <a href="" class="category__button">Science & Technology</a>
+      <a href="" class="category__button">Food</a>
+      <a href="" class="category__button">Wild Life</a>
+      <a href="" class="category__button">Music</a>
+    </div>
+   </section>
+
+<!---=====================END OF POSTS====================--->
+
+<footer>
+  <div class="footer__socials">
+    <a href="https://youtube.com" target="_blank"><img src="./Darjeeling Trip/facebook.png" alt=""></a>
+    <a href="https://youtube.com" target="_blank"><img src="./Darjeeling Trip/youtube.png" alt=""></a>
+    <a href="https://youtube.com" target="_blank"><img src="./Darjeeling Trip/facebook.png" alt=""></a>
+    <a href="https://youtube.com" target="_blank"><img src="./Darjeeling Trip/github.png" alt=""></a>
+  </div>
+  <div class="container footer__container">
+    <article>
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="">Art</a></li>
+        <li><a href="">Sports</a></li>
+        <li><a href="">Fest</a></li>
+        <li><a href="">Music</a></li>
+        <li><a href="">Travel</a></li>
+        <li><a href="">Science and Technology</a></li>
+        <li><a href="">Wild Life</a></li>
+      </ul>
+    </article>
+
+    <article>
+      <h4>Support</h4>
+      <ul>
+        <li><a href="">Online Support</a></li>
+        <li><a href="">Phone</a></li>
+        <li><a href="">Email</a></li>
+        <li><a href="">Socail Support</a></li>
+        <li><a href="">Location</a></li>
+       
+      </ul>
+    </article>
+
+    <article>
+      <h4>Permalinks</h4>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </article>
+
+    <article>
+      <h4>Blog</h4>
+      <ul>
+        <li><a href="">Safety</a></li>
+        <li><a href="">Repair</a></li>
+        <li><a href="">Recent</a></li>
+        <li><a href="">Popular</a></li>
+        <li><a href="">Categories</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="footer__copyright">
+    <small> copyright &copy:2023 Team Zeng4</small>
+  </div>
+</footer>
+<script src="./main.js"></script>
+</body>
+</html>
